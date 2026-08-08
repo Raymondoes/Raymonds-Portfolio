@@ -25,7 +25,7 @@ const tools = [
 const Technologies: React.FC = () => {
   return (
     <div
-      className={`w-full gap-5 bg-stone-800/50 backdrop-blur-xl px-5 py-10 rounded-2xl`}
+      className={`w-full gap-5 mt-10 bg-stone-800/50 backdrop-blur-xl px-5 py-10 rounded-2xl`}
     >
       <h1 className="xl:text-4xl text-2xl text-center">
         Languages & Frameworks
@@ -39,8 +39,8 @@ const Technologies: React.FC = () => {
               key={tool.id}
               className="flex items-center gap-3 p-4 rounded-lg"
             >
-              <IconComponent className={`text-3xl ${tool.color}`} />
-              <span className="font-medium text-lg text-slate-200">
+              <IconComponent className={`xl:text-3xl text-2xl ${tool.color}`} />
+              <span className="font-medium text-md text-slate-200">
                 {tool.name}
               </span>
             </div>

@@ -19,11 +19,11 @@ const Connect: React.FC = () => {
       <div className="flex flex-col gap-4 text-center">
         <h1 className="xl:text-4xl text-2xl font-bold">Get in Touch</h1>
         <div className="flex flex-wrap gap-2 justify-center items-center">
-          <p className="text-xl">
+          <p className="xl:text-xl">
             Open for freelance opportunities. Or lets just have a
           </p>
-          <FaCoffee className="fill-amber-900 size-10" />
-          <p className="text-xl">and chat.</p>
+          <FaCoffee className="fill-amber-900 xl:size-10 size-7" />
+          <p className="xl:text-xl">and chat.</p>
         </div>
       </div>
 
@@ -34,13 +34,13 @@ const Connect: React.FC = () => {
           {/* Location Item */}
           <div className="flex gap-3 items-center">
             <FaMapMarkerAlt className="fill-red-500 size-6 shrink-0" />
-            <p className="text-xl">Medan, Indonesia</p>
+            <p className="xl:text-xl">Medan, Indonesia</p>
           </div>
 
           {/* Email Item */}
           <div className="flex gap-3 items-center">
             <BiEnvelope className="fill-blue-500 size-6 shrink-0" />
-            <p className="text-xl">marioboygamingyt@gmail.com</p>
+            <p className="xl:text-xl">marioboygamingyt@gmail.com</p>
           </div>
         </div>
 

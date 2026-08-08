@@ -15,10 +15,10 @@ const Masthead: React.FC = () => {
         <source src="/assets/masthead-bg.mp4" type="video/mp4; codecs=hvc1" />
         <source src="/assets/masthead-bg.webm" type="video/webm; codecs=vp9" />
       </video>
-      <div className="grid grid-cols-2 bg-stone-800/50 backdrop-blur-xl px-5 py-10 rounded-2xl">
+      <div className="grid md:grid-cols-2 bg-stone-800/50 backdrop-blur-xl px-5 py-10 rounded-2xl">
         <Image
           src="/assets/Raymond2.png"
-          className="rounded-[1000px]"
+          className="rounded-[500px]"
           width={500}
           height={500}
           alt="Raymond"

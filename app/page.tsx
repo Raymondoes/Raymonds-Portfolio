@@ -17,7 +17,7 @@ will add a Background and make this quite similar to the Rainin' Soft website
 
 const Home: React.FC = () => {
   return (
-    <div className={`${InterFont.className} px-10`}>
+    <div className={`${InterFont.className} xl:px-10 px-3`}>
       <Navbar />
       <Masthead />
       <Technologies />
