@@ -5,7 +5,7 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiTypescript,
-  SiDocker,
+  SiNodedotjs,
 } from "react-icons/si";
 
 const tools = [
@@ -19,7 +19,7 @@ const tools = [
   },
   { id: 4, name: "Tailwind", icon: SiTailwindcss, color: "text-sky-400" },
   { id: 5, name: "React Native", icon: SiReact, color: "text-blue-400" },
-  { id: 6, name: "Docker", icon: SiDocker, color: "text-blue-600" },
+  { id: 6, name: "Node.js", icon: SiNodedotjs, color: "text-blue-600" },
 ];
 
 const Technologies: React.FC = () => {
